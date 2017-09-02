@@ -7,10 +7,13 @@ import { StatusBar } from '@ionic-native/status-bar';
 import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
 
+import { HideFabDirective } from '../directives/hide-fab/hide-fab';
+
 @NgModule({
   declarations: [
     MyApp,
-    HomePage
+    HomePage,
+    HideFabDirective
   ],
   imports: [
     BrowserModule,
